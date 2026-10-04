@@ -59,6 +59,11 @@ Stream Processing & Normalization: Iterates through the extracted packet lines, 
 Threat Matching & Alerting: Compares every loaded Sigma rule's keywords against the packet content. When a match occurs, it increments the alert count and prints a detailed forensic breakdown (Source IP, target URI, matched keyword, and MITRE ATT&CK tags).
 Command-Line Interface (CLI): Uses Python's sys.argv to accept the target PCAP file as a command-line argument (e.g., python3 mitre_siem.py capture.pcap), automatically triggering the rule loading and scanning functions.
 
+**Parsed PCAP Analysis & Alert Generation**
+<img width="1452" height="592" alt="9 results of working siem" src="https://github.com/user-attachments/assets/4c0ac823-76e3-4d53-9e5e-4f2dccce7e37" />
+
+SIEM Execution & Threat Detection Output: Terminal execution of mitre_siem.py processing 1,555 network-centric Sigma rules against sample PCAP traffic. The tool successfully extracts HTTP artifacts, correlates traffic with suspicious keywords, and triggers structured alerts with corresponding MITRE ATT&CK technique IDs (e.g., T1083, T1071.001).   
+
 ## Acknowledgements & Development Workflow
 This project was built as a hands-on cybersecurity portfolio piece focusing on Python scripting, network traffic analysis, and threat intelligence mapping. AI-driven development workflows and assistant tools were leveraged to help structure the codebase, refine data-parsing logic (such as recursive Sigma rule ingestion and keyword filtering), and draft comprehensive technical documentation.
 
