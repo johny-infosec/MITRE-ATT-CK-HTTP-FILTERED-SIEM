@@ -61,6 +61,7 @@ Command-Line Interface (CLI): Uses Python's sys.argv to accept the target PCAP f
 
 **Parsed PCAP Analysis & Alert Generation**
 <img width="1452" height="592" alt="9 results of working siem" src="https://github.com/user-attachments/assets/4c0ac823-76e3-4d53-9e5e-4f2dccce7e37" />
+<img width="1457" height="635" alt="updated siem scan results " src="https://github.com/user-attachments/assets/60430c35-544c-4509-a71b-de715257f563" />
 
 SIEM Execution & Threat Detection Output: Terminal execution of mitre_siem.py processing 1,555 network-centric Sigma rules against sample PCAP traffic. The tool successfully extracts HTTP artifacts, correlates traffic with suspicious keywords, and triggers structured alerts with corresponding MITRE ATT&CK technique IDs (e.g., T1083, T1071.001).   
 
