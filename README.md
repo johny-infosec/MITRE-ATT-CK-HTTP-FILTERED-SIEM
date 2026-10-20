@@ -16,13 +16,13 @@ I Ensured `tshark` is installed on my system for packet capture dissection and f
 **I created and edited the script using the terminal text editor nano.**
 <img width="735" height="62" alt="3 using nano for script " src="https://github.com/user-attachments/assets/4b63898a-d302-4e31-9604-315f40aad87c" />
 
-**The actual SIEM script :1/5**
+**The actual SIEM script :1/3**
 <img width="1102" height="530" alt="n1" src="https://github.com/user-attachments/assets/ee93f0ad-d3d6-4333-b03c-e542eb215e0b" />
 
 This function, extract_keywords_from_detection, is a helper utility designed to parse and extract searchable lowercase string patterns out of a Sigma rule's YAML detection block.
 It handles different data structures within the rule logic by checking whether values are strings, lists, or nested dictionaries recursively, ensuring all matching strings are collected to scan network traffic or logs effectively.
 
-**The actual SIEM script :2/5**
+**The actual SIEM script :2/3**
 <img width="1565" height="885" alt="image" src="https://github.com/user-attachments/assets/f47ae5ba-dbf9-4c83-ae2b-dc296e967b9a" />
 
 **Step-by-Step Breakdown:**
